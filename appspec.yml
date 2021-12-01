@@ -1,0 +1,23 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /root/fromcodepipeline
+hooks:
+  BeforeInstall:
+    - location: before.sh
+      timeout: 300
+      runas: root
+  AfterInstall:
+    - location: after.sh
+      timeout: 300
+      runas: root
+  ApplicationStart:
+    - location: before.sh
+    - location: before.sh
+      timeout: 300
+      runas: root
+  ApplicationStop:
+    - location: before.sh
+      timeout: 300
+      runas: root
