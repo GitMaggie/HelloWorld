@@ -5,8 +5,8 @@ on:
     tags-ignore:
       - '*'
     branches:
-#     - '*'
-      - 'test'
+      - '*'
+
 
 jobs:
   sync:
