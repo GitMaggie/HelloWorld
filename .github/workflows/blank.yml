@@ -1,4 +1,4 @@
-name: sync up to codecommit
+name: sync up to codecommit -blank
 #https://github.com/marketplace/actions/sync-up-to-aws-codecommit-action-to-certainbranch
 on:
   push:
