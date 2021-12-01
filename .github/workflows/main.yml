@@ -1,6 +1,7 @@
 name: Mirroring-ssh
 
-on: [push, delete]
+#on: [push, delete]
+on: [delete]
 
 jobs:
 #  to_gitlab:
